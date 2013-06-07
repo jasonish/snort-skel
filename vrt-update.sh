@@ -6,6 +6,12 @@
 for directory in $(find * -maxdepth 1 -type d -name etc); do
     version=$(dirname ${directory} | tr -d .)
 
+    if [ "$1" ]; then
+	if [ "$1" != "$(dirname ${directory})" ]; then
+	    continue
+	fi
+    fi
+
     for filename in snort.conf \
 	classification.config \
 	reference.config \
