@@ -22,7 +22,6 @@ for directory in $(find * -maxdepth 1 -type d -name etc); do
 	if ! curl --progress-bar --fail -o ${directory}/${filename} ${url}
 	then
 	    echo "ERROR: Failed to get ${url}."
-	    exit 1
 	fi
     done
 done
