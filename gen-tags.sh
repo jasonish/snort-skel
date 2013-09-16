@@ -3,6 +3,11 @@
 # Script to make a tag out of each directory that contains just the
 # skeleton files for that release.
 
+set -x
+set -e
+
+git stash
+
 git checkout --orphan tags
 
 git rm -r --cache *
@@ -20,3 +25,5 @@ done
 git checkout --force master
 git reset --hard origin/master
 git branch -D tags
+
+git stash pop
