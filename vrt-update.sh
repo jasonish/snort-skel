@@ -26,4 +26,4 @@ for directory in $(find * -maxdepth 1 -type d -name etc); do
     done
 done
 
-git commit -a -m 'Latest VRT.'
+#git commit -a -m 'Latest VRT.'
