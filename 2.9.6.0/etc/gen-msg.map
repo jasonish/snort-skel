@@ -1,4 +1,4 @@
-# $Id$
+# $Id: gen-msg.map,v 1.131 2014/03/14 17:09:18 eborgoyn Exp $
 # GENERATORS -> msg map
 # Format: generatorid || alertid || MSG
 
@@ -279,6 +279,12 @@
 120 || 9 || http_inspect: JAVASCRIPT OBFUSCATION LEVELS EXCEEDS 1
 120 || 10 || http_inspect: JAVASCRIPT WHITESPACES EXCEEDS MAX ALLOWED
 120 || 11 || http_inspect: MULTIPLE ENCODINGS WITHIN JAVASCRIPT OBFUSCATED DATA
+120 || 12 || http_inspect: SWF FILE ZLIB DECOMPRESSION FAILURE
+120 || 13 || http_inspect: SWF FILE LZMA DECOMPRESSION FAILURE
+120 || 14 || http_inspect: PDF FILE DEFLATE DECOMPRESSION FAILURE
+120 || 15 || http_inspect: PDF FILE UNSUPPORTED COMPRESSION TYPES
+120 || 16 || http_inspect: PDF FILE CASCADED COMPRESSION
+120 || 17 || http_inspect: PDF FILE PARSE FAILURE
 121 || 1 || flow-portscan: Fixed Scale Scanner Limit Exceeded
 121 || 2 || flow-portscan: Sliding Scale Scanner Limit Exceeded
 121 || 3 || flow-portscan: Fixed Scale Talker Limit Exceeded
