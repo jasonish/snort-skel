@@ -1,4 +1,4 @@
-# $Id: gen-msg.map,v 1.131 2014/03/14 17:09:18 eborgoyn Exp $
+# $Id: gen-msg.map,v 1.132 2014/07/07 16:33:33 bbantwal Exp $
 # GENERATORS -> msg map
 # Format: generatorid || alertid || MSG
 
@@ -453,6 +453,8 @@
 136 || 2 || reputation: Packet is whitelisted
 137 || 1 || ssp_ssl: Invalid Client HELLO after Server HELLO Detected
 137 || 2 || ssp_ssl: Invalid Server HELLO without Client HELLO Detected
+137 || 3 || spp_ssl: Heartbeat Read Overrun Attempt Detected
+137 || 4 || spp_ssl: Large Heartbeat Response Detected
 138 || 2 || sensitive_data: sensitive data - Credit card numbers
 138 || 3 || sensitive_data: sensitive data - U.S. social security numbers with dashes
 138 || 4 || sensitive_data: sensitive data - U.S. social security numbers without dashes
