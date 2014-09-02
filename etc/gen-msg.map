@@ -1,4 +1,4 @@
-# $Id: gen-msg.map,v 1.15 2012-02-06 23:04:16 nhoughton Exp $
+# $Id: gen-msg.map,v 1.16 2013-01-17 15:45:47 jesler Exp $
 # GENERATORS -> msg map
 # Format: generatorid || alertid || MSG
 
@@ -456,6 +456,7 @@
 140 || 24 || sip: SIP version other than 2.0, 1.0, and 1.1 are invalid
 140 || 25 || sip: Mismatch in Method of request and the CSEQ header
 140 || 26 || sip: The method is unknown
+140 || 27 || sip: Maximum dialogs in a session reached
 141 || 1 || imap: Unknown IMAP4 command
 141 || 2 || imap: Unknown IMAP4 response
 141 || 3 || imap: No memory available for decoding. Memcap exceeded.
